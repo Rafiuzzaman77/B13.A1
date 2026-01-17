@@ -1,5 +1,173 @@
-body {
+* {
 
-    background-color: chocolate;
+padding:0;
+margin:0;
+}
 
+nav {
+display: flex;
+justify-content: space-around;
+
+max-width: 1350px;
+margin: auto;
+
+}
+
+.bd1 {
+    width: 130px;
+    height: 40px;
+background-color: darkgreen;
+color: beige;
+justify-content: center;
+align-items: center;
+gap: 12;
+padding: 10px 12px 10px 12px;
+
+}
+
+.bd2{
+    justify-content:center;
+    gap: 8;
+}
+.btn1{
+background-color: forestgreen;
+color:azure;
+max-width: 400px;
+margin: auto;
+}
+
+.btn2 {
+    background-color: gray;
+color: azure;
+max-width: 400px;
+margin: auto;
+
+}
+.btn3{
+background-color:gray;
+color: chartreuse;
+display: flex;
+padding: 2px 6px 2px 6px;
+border-radius: 700px;
+justify-content: center;
+max-width: 180px;
+margin: auto;
+
+}
+.head1{
+    color: beige;
+    
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+text-align: center;
+max-width: 700px;
+margin: auto;
+
+}
+.head2{
+width: 770px;
+    color: chartreuse;
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+text-align: center;
+max-width: 700px;
+margin: auto;
+}
+
+.hero-parent {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: url('./assets/hero-bg.png');
+padding: 150px;
+}
+.hero-parent p{
+
+    color: white;
+font-family: Inter;
+font-style: Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+.sec-3{
+color: black;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+max-width: 700px;
+margin: auto;
+padding: 60px;
+
+}
+.scattered notes{
+
+}
+.first-icon{
+    background-color:antiquewhite;
+    border-radius: 8px;
+    padding: 10px 10px;
+    border: 1px solid aliceblue(6,6,6,0.13)
+    
+    
+    
+}
+.icon1{
+background-color: orange;
+background: rgba(249, 85, 85, 1);
+
+}
+.first-icon{
+    display:inline-block;
+    gap: 12px;
+    margin: 12px auto;
+    flex-direction: column;
+}
+
+.solution{
+color:green;
+}
+
+.parent{
+color:gray;
+}
+.all {
+display:flex;
+padding:80px;
+gap:20px;
+}
+
+.all-2{
+background-color: darkgoldenrod;
+display:inline-block;
+align-items: center;
+padding: 80px 80px 60px;
+margin: auto;
+}
+
+.ending-1{
+    display: flex;
+justify-content: space-around;
+
+}
+.end{
+background-color: black;
+display: flex;
+padding: 120px 120px 60px;
+gap: 20px;
+
+}
+.ending-2{
+    color: white;
+}
+.cpy{
+
+color: white;
+align-content: end;
 }
